@@ -1,4 +1,4 @@
-const API_PRODUCTS_URL = 'http://localhost:3000/api/products';
+const API_PRODUCTS_URL = 'https://technical-test-backend-p5el.onrender.com/api/products';
 
 export const getProducts = async () => {
   try {

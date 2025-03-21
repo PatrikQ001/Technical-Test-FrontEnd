@@ -1,4 +1,4 @@
-const API_ORDER_PRODUCTS_URL = 'http://localhost:3000/api/order-products';
+const API_ORDER_PRODUCTS_URL = 'https://technical-test-backend-p5el.onrender.com/api/order-products';
 
 export const addProductToOrder = async (orderId, productId, quantity) => {
   try {
